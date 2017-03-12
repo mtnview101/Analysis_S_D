@@ -7,7 +7,7 @@
         <methods>
           <include name="card_cvv_test" invocation-numbers="4"/>
           <include name="card_number_length_test" invocation-numbers="2 4"/>
-          <include name="luhn_test" invocation-numbers="3 4"/>
+          <include name="luhn_test" invocation-numbers="3 4 6 8"/>
           <include name="card_exp_test" invocation-numbers="4"/>
           <include name="bm"/>
           <include name="card_type_test" invocation-numbers="2 4"/>

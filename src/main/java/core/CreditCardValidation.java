@@ -27,7 +27,7 @@ number.startsWith("53") || number.startsWith("54") || number.startsWith("55")) &
 number.length() == 16 && cc_type.equals("MasterCard")) {return true;}
 else if ((number.startsWith("6011") || number.startsWith("62") ||
 number.startsWith("64") || number.startsWith("65")) && number.length() == 16 &&
-cc_type.equals("Discover")) {return true;}
+cc_type.equals("Discover")){return true;}
 else if ((number.startsWith("34") || number.startsWith("37")) &&
 number.length() == 15 && cc_type.equals("American Express")) {return true;} 
 else {return false;}}

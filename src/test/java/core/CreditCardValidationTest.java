@@ -26,7 +26,7 @@ public class CreditCardValidationTest implements ITest {
               Override a = method.getAnnotation(Override.class);
               String testCaseId = (String) parameters[a.id()];
               setTestName(testCaseId);}
-
+       
        @DataProvider(name = "dp")
        public Iterator<String[]> a2d() throws InterruptedException, IOException {
               String cvsLine = ""; String[] a = null;
@@ -37,7 +37,9 @@ public class CreditCardValidationTest implements ITest {
 
        @Override(id = 1)
        @Test(dataProvider = "dp", enabled = true, groups = "card_type")
-       public void card_type_test(String cc_type, String cc_number, String cc_exp, String cc_cvv) {
+       public void card_type_test(String cc_type, String cc_number, String cc_exp, String cc_cvv) throws IOException {
+    	   CreditCardValidation o=new CreditCardValidation(); 
+    	   CreditCardValidation.main(null);
               assertThat(CreditCardValidation.card_type(cc_type, cc_number), is(true));}
        
        @Override(id = 1)
@@ -63,4 +65,6 @@ public void luhn_test(String cc_type, String cc_number, String cc_exp, String cc
 // CreditCardValidation a = new CreditCardValidation ();a.getClass();
 // CreditCardValidation.main(null);
               assertThat(CreditCardValidation.luhn(cc_number), is(true));}
+
+
 }

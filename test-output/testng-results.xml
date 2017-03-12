@@ -1,747 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="8" ignored="0" total="30" passed="22">
+<testng-results skipped="0" failed="10" ignored="0" total="54" passed="44">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="649" started-at="2017-03-12T04:23:44Z" finished-at="2017-03-12T04:23:45Z">
+  <suite name="Default suite" duration-ms="776" started-at="2017-03-12T05:11:43Z" finished-at="2017-03-12T05:11:44Z">
     <groups>
       <group name="cvv">
-        <method signature="CreditCardValidationTest.card_cvv_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" name="card_cvv_test" class="core.CreditCardValidationTest"/>
+        <method signature="CreditCardValidationTest.card_cvv_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" name="card_cvv_test" class="core.CreditCardValidationTest"/>
       </group> <!-- cvv -->
       <group name="card_length">
-        <method signature="CreditCardValidationTest.card_number_length_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" name="card_number_length_test" class="core.CreditCardValidationTest"/>
+        <method signature="CreditCardValidationTest.card_number_length_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" name="card_number_length_test" class="core.CreditCardValidationTest"/>
       </group> <!-- card_length -->
       <group name="exp_format">
-        <method signature="CreditCardValidationTest.card_exp_format_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" name="card_exp_format_test" class="core.CreditCardValidationTest"/>
+        <method signature="CreditCardValidationTest.card_exp_format_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" name="card_exp_format_test" class="core.CreditCardValidationTest"/>
       </group> <!-- exp_format -->
       <group name="exp">
-        <method signature="CreditCardValidationTest.card_exp_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" name="card_exp_test" class="core.CreditCardValidationTest"/>
+        <method signature="CreditCardValidationTest.card_exp_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" name="card_exp_test" class="core.CreditCardValidationTest"/>
       </group> <!-- exp -->
       <group name="card_type">
-        <method signature="CreditCardValidationTest.card_type_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" name="card_type_test" class="core.CreditCardValidationTest"/>
+        <method signature="CreditCardValidationTest.card_type_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" name="card_type_test" class="core.CreditCardValidationTest"/>
       </group> <!-- card_type -->
       <group name="luhn">
-        <method signature="CreditCardValidationTest.luhn_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" name="luhn_test" class="core.CreditCardValidationTest"/>
+        <method signature="CreditCardValidationTest.luhn_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" name="luhn_test" class="core.CreditCardValidationTest"/>
       </group> <!-- luhn -->
     </groups>
-    <test name="Default test" duration-ms="649" started-at="2017-03-12T04:23:44Z" finished-at="2017-03-12T04:23:45Z">
+    <test name="Default test" duration-ms="776" started-at="2017-03-12T05:11:43Z" finished-at="2017-03-12T05:11:44Z">
       <class name="core.CreditCardValidationTest">
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="23" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="19" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
           <params>
             <param index="0">
               <value>
                 <![CDATA[public void core.CreditCardValidationTest.card_cvv_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@766a49c7]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="card_cvv_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_cvv_test" duration-ms="117" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[VISA]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[4532-5471-0699-4816]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[03/18]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- card_cvv_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="3" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_cvv_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@1db7157f]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="card_cvv_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_cvv_test" duration-ms="5" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[MasterCard]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5584398929973080]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[09/19]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- card_cvv_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_cvv_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@75e27856]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="card_cvv_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_cvv_test" duration-ms="5" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Discover]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[60119333026796141]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[02/18]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- card_cvv_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_cvv_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@6bccd036]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="card_cvv_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_cvv_test" duration-ms="8" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[American Express]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[377836551942260]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[04/17]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- card_cvv_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="2" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_cvv_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@4f4c88f9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="FAIL" signature="card_cvv_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_cvv_test" duration-ms="7" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[BLAH]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[4532-5471-0699-4816-1234]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[06/16]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: is <true>
-     but: was <false>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <true>
-     but: was <false>
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-	at core.CreditCardValidationTest.card_cvv_test(CreditCardValidationTest.java:59)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- card_cvv_test -->
-        <test-method status="PASS" signature="card_exp_format_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_exp_format_test" duration-ms="2" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[VISA]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[4532-5471-0699-4816]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[03/18]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- card_exp_format_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_exp_format_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@7beae796]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="card_exp_format_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_exp_format_test" duration-ms="2" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[MasterCard]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5584398929973080]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[09/19]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- card_exp_format_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_exp_format_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@6749fe50]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="card_exp_format_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_exp_format_test" duration-ms="10" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Discover]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[60119333026796141]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[02/18]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- card_exp_format_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_exp_format_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@52bf7bf6]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_exp_format_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@261db982]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="card_exp_format_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_exp_format_test" duration-ms="2" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[American Express]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[377836551942260]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[04/17]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- card_exp_format_test -->
-        <test-method status="PASS" signature="card_exp_format_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_exp_format_test" duration-ms="1" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[BLAH]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[4532-5471-0699-4816-1234]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[06/16]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- card_exp_format_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_exp_format_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@ae73c80]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_exp_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@22f4f8f2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="card_exp_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_exp_test" duration-ms="18" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[VISA]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[4532-5471-0699-4816]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[03/18]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- card_exp_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_exp_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@bbd4791]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="card_exp_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_exp_test" duration-ms="1" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[MasterCard]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5584398929973080]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[09/19]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- card_exp_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="2" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_exp_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@40a72ecd]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="card_exp_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_exp_test" duration-ms="5" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Discover]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[60119333026796141]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[02/18]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- card_exp_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_exp_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@73971965]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="card_exp_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_exp_test" duration-ms="1" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[American Express]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[377836551942260]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[04/17]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- card_exp_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="8" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_exp_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@76a14c8d]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="FAIL" signature="card_exp_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_exp_test" duration-ms="4" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[BLAH]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[4532-5471-0699-4816-1234]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[06/16]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: is <true>
-     but: was <false>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <true>
-     but: was <false>
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-	at core.CreditCardValidationTest.card_exp_test(CreditCardValidationTest.java:55)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- card_exp_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="8" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_number_length_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
               </value>
             </param>
             <param index="1">
@@ -753,7 +41,7 @@ Expected: is <true>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="card_number_length_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_number_length_test" duration-ms="6" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
+        <test-method status="PASS" signature="card_cvv_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_cvv_test" duration-ms="71" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
           <params>
             <param index="0">
               <value>
@@ -778,12 +66,12 @@ Expected: is <true>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- card_number_length_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
+        </test-method> <!-- card_cvv_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_number_length_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+                <![CDATA[public void core.CreditCardValidationTest.card_cvv_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
               </value>
             </param>
             <param index="1">
@@ -795,7 +83,7 @@ Expected: is <true>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="card_number_length_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_number_length_test" duration-ms="2" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
+        <test-method status="PASS" signature="card_cvv_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_cvv_test" duration-ms="9" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
           <params>
             <param index="0">
               <value>
@@ -820,12 +108,12 @@ Expected: is <true>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- card_number_length_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
+        </test-method> <!-- card_cvv_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="5" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_number_length_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+                <![CDATA[public void core.CreditCardValidationTest.card_cvv_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
               </value>
             </param>
             <param index="1">
@@ -837,7 +125,7 @@ Expected: is <true>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="FAIL" signature="card_number_length_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_number_length_test" duration-ms="2" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
+        <test-method status="PASS" signature="card_cvv_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_cvv_test" duration-ms="7" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
           <params>
             <param index="0">
               <value>
@@ -846,7 +134,7 @@ Expected: is <true>
             </param>
             <param index="1">
               <value>
-                <![CDATA[60119333026796141]]>
+                <![CDATA[6011 9333 0267 9614 1]]>
               </value>
             </param>
             <param index="2">
@@ -860,55 +148,40 @@ Expected: is <true>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: is <true>
-     but: was <false>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <true>
-     but: was <false>
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-	at core.CreditCardValidationTest.card_number_length_test(CreditCardValidationTest.java:46)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- card_number_length_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
+        </test-method> <!-- card_cvv_test -->
+        <test-method status="PASS" signature="card_cvv_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_cvv_test" duration-ms="9" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_number_length_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[37783 6551 9422 60]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[04/17]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_cvv_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_cvv_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
               </value>
             </param>
             <param index="1">
@@ -920,49 +193,7 @@ Expected: is <true>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="card_number_length_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_number_length_test" duration-ms="4" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[American Express]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[377836551942260]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[04/17]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- card_number_length_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_number_length_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@46f902e0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="FAIL" signature="card_number_length_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_number_length_test" duration-ms="1" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
+        <test-method status="FAIL" signature="card_cvv_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_cvv_test" duration-ms="12" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
           <params>
             <param index="0">
               <value>
@@ -997,7 +228,7 @@ Expected: is <true>
      but: was <false>
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-	at core.CreditCardValidationTest.card_number_length_test(CreditCardValidationTest.java:46)
+	at core.CreditCardValidationTest.card_cvv_test(CreditCardValidationTest.java:61)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1028,221 +259,12 @@ Expected: is <true>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- card_number_length_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
+        </test-method> <!-- card_cvv_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_type_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@64f981e2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="card_type_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_type_test" duration-ms="1" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[VISA]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[4532-5471-0699-4816]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[03/18]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- card_type_test -->
-        <test-method status="PASS" signature="card_type_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_type_test" duration-ms="2" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[MasterCard]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5584398929973080]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[09/19]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- card_type_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_type_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@361abd01]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_type_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@575b5f7d]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="FAIL" signature="card_type_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_type_test" duration-ms="4" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Discover]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[60119333026796141]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[02/18]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: is <true>
-     but: was <false>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <true>
-     but: was <false>
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-	at core.CreditCardValidationTest.card_type_test(CreditCardValidationTest.java:41)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- card_type_test -->
-        <test-method status="PASS" signature="card_type_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_type_test" duration-ms="2" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[American Express]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[377836551942260]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[04/17]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- card_type_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_type_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@59bbb974]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.card_type_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+                <![CDATA[public void core.CreditCardValidationTest.card_cvv_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
               </value>
             </param>
             <param index="1">
@@ -1254,7 +276,737 @@ Expected: is <true>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="FAIL" signature="card_type_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="card_type_test" duration-ms="2" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_cvv_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@12f49ca8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_cvv_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_cvv_test" duration-ms="14" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6011 9333 0267 9614]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[02/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_cvv_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="2" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_cvv_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1fd9893c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_cvv_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_cvv_test" duration-ms="5" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3778 3655 1942 239]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[04/17]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_cvv_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_cvv_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1b2df3aa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_cvv_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_cvv_test" duration-ms="2" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584 3989 2997 3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_cvv_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="3" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_cvv_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@44be69aa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_cvv_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_cvv_test" duration-ms="2" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4532-5471-0699-6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_cvv_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_exp_format_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7219ac49]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_exp_format_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_exp_format_test" duration-ms="4" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4532-5471-0699-4816]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_exp_format_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_exp_format_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@21da4b5f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_exp_format_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_exp_format_test" duration-ms="9" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584398929973080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_exp_format_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_exp_format_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@551e4c6d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_exp_format_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_exp_format_test" duration-ms="4" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6011 9333 0267 9614 1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[02/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_exp_format_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_exp_format_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@625a9c5d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_exp_format_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_exp_format_test" duration-ms="4" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[37783 6551 9422 60]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[04/17]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_exp_format_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_exp_format_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5d1e0fbb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_exp_format_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_exp_format_test" duration-ms="4" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BLAH]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4532-5471-0699-4816-1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[06/16]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_exp_format_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="2" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_exp_format_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2eed37f4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_exp_format_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_exp_format_test" duration-ms="1" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6011 9333 0267 9614]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[02/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_exp_format_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_exp_format_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@9b76b60]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_exp_format_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_exp_format_test" duration-ms="2" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3778 3655 1942 239]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[04/17]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_exp_format_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_exp_format_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3fb9a67f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_exp_format_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_exp_format_test" duration-ms="2" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584 3989 2997 3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_exp_format_test -->
+        <test-method status="PASS" signature="card_exp_format_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_exp_format_test" duration-ms="3" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4532-5471-0699-6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_exp_format_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_exp_format_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@127705e4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_exp_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5562c2c9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_exp_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_exp_test" duration-ms="20" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4532-5471-0699-4816]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_exp_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_exp_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@673c4f6e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_exp_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_exp_test" duration-ms="6" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584398929973080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_exp_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_exp_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@15c487a8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_exp_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_exp_test" duration-ms="1" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6011 9333 0267 9614 1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[02/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_exp_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_exp_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3f36e8d1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_exp_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_exp_test" duration-ms="2" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[37783 6551 9422 60]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[04/17]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_exp_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_exp_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7c011174]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="FAIL" signature="card_exp_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_exp_test" duration-ms="3" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
           <params>
             <param index="0">
               <value>
@@ -1289,7 +1041,802 @@ Expected: is <true>
      but: was <false>
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-	at core.CreditCardValidationTest.card_type_test(CreditCardValidationTest.java:41)
+	at core.CreditCardValidationTest.card_exp_test(CreditCardValidationTest.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_exp_test -->
+        <test-method status="PASS" signature="card_exp_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_exp_test" duration-ms="2" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6011 9333 0267 9614]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[02/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_exp_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_exp_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@794366a5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_exp_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@480b57e2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_exp_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_exp_test" duration-ms="3" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3778 3655 1942 239]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[04/17]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_exp_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_exp_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@40f35e52]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_exp_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_exp_test" duration-ms="3" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584 3989 2997 3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_exp_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_exp_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@340d6d89]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_exp_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_exp_test" duration-ms="4" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4532-5471-0699-6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_exp_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_number_length_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@561953e3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_number_length_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_number_length_test" duration-ms="4" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4532-5471-0699-4816]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_number_length_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_number_length_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@443faa85]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_number_length_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_number_length_test" duration-ms="2" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584398929973080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_number_length_test -->
+        <test-method status="FAIL" signature="card_number_length_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_number_length_test" duration-ms="2" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6011 9333 0267 9614 1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[02/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.card_number_length_test(CreditCardValidationTest.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_number_length_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_number_length_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1ee47d9e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_number_length_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@41da3aee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_number_length_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_number_length_test" duration-ms="3" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[37783 6551 9422 60]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[04/17]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_number_length_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_number_length_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5dc0ff7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="FAIL" signature="card_number_length_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_number_length_test" duration-ms="2" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BLAH]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4532-5471-0699-4816-1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[06/16]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.card_number_length_test(CreditCardValidationTest.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_number_length_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_number_length_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@64920dc2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_number_length_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_number_length_test" duration-ms="1" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6011 9333 0267 9614]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[02/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_number_length_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_number_length_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@59a79443]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_number_length_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_number_length_test" duration-ms="2" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3778 3655 1942 239]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[04/17]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_number_length_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_number_length_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@493ac8d3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_number_length_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_number_length_test" duration-ms="1" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584 3989 2997 3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_number_length_test -->
+        <test-method status="PASS" signature="card_number_length_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_number_length_test" duration-ms="3" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4532-5471-0699-6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_number_length_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_number_length_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@13dbed9e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_type_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@67531e3a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_type_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_type_test" duration-ms="14" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4532-5471-0699-4816]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_type_test -->
+        <test-method status="PASS" signature="card_type_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_type_test" duration-ms="13" started-at="2017-03-11T21:11:43Z" data-provider="dp" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584398929973080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_type_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:43Z" finished-at="2017-03-11T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_type_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2b38b1f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:44Z" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_type_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1d50a7ca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="FAIL" signature="card_type_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_type_test" duration-ms="8" started-at="2017-03-11T21:11:44Z" data-provider="dp" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6011 9333 0267 9614 1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[02/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.card_type_test(CreditCardValidationTest.java:43)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1321,149 +1868,7 @@ Expected: is <true>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- card_type_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.luhn_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@12f49ca8]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="luhn_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="luhn_test" duration-ms="3" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[VISA]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[4532-5471-0699-4816]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[03/18]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- luhn_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.luhn_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@1fd9893c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="luhn_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="luhn_test" duration-ms="3" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[MasterCard]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5584398929973080]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[09/19]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- luhn_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="2" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.luhn_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@1b2df3aa]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="luhn_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="luhn_test" duration-ms="3" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Discover]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[60119333026796141]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[02/18]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- luhn_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.CreditCardValidationTest.luhn_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@44be69aa]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="FAIL" signature="luhn_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="luhn_test" duration-ms="2" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
+        <test-method status="PASS" signature="card_type_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_type_test" duration-ms="9" started-at="2017-03-11T21:11:44Z" data-provider="dp" finished-at="2017-03-11T21:11:44Z">
           <params>
             <param index="0">
               <value>
@@ -1472,7 +1877,7 @@ Expected: is <true>
             </param>
             <param index="1">
               <value>
-                <![CDATA[377836551942260]]>
+                <![CDATA[37783 6551 9422 60]]>
               </value>
             </param>
             <param index="2">
@@ -1486,67 +1891,26 @@ Expected: is <true>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: is <true>
-     but: was <false>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <true>
-     but: was <false>
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-	at core.CreditCardValidationTest.luhn_test(CreditCardValidationTest.java:65)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- luhn_test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T20:23:45Z" finished-at="2017-03-11T20:23:45Z">
+        </test-method> <!-- card_type_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:44Z" finished-at="2017-03-11T21:11:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.CreditCardValidationTest.luhn_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+                <![CDATA[public void core.CreditCardValidationTest.card_type_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@7219ac49]]>
+                <![CDATA[[Ljava.lang.Object;@51ab1ee3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="FAIL" signature="luhn_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@b0fc838]" test-instance-name="4532-5471-0699-4816-1234" name="luhn_test" duration-ms="9" started-at="2017-03-11T20:23:45Z" data-provider="dp" finished-at="2017-03-11T20:23:45Z">
+        <test-method status="FAIL" signature="card_type_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_type_test" duration-ms="8" started-at="2017-03-11T21:11:44Z" data-provider="dp" finished-at="2017-03-11T21:11:44Z">
           <params>
             <param index="0">
               <value>
@@ -1581,7 +1945,733 @@ Expected: is <true>
      but: was <false>
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-	at core.CreditCardValidationTest.luhn_test(CreditCardValidationTest.java:65)
+	at core.CreditCardValidationTest.card_type_test(CreditCardValidationTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_type_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:44Z" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_type_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2e766822]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_type_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_type_test" duration-ms="7" started-at="2017-03-11T21:11:44Z" data-provider="dp" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6011 9333 0267 9614]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[02/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_type_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:44Z" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_type_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3003e580]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:44Z" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_type_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@28757abd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_type_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_type_test" duration-ms="5" started-at="2017-03-11T21:11:44Z" data-provider="dp" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3778 3655 1942 239]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[04/17]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_type_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:44Z" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_type_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@21a02556]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_type_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_type_test" duration-ms="6" started-at="2017-03-11T21:11:44Z" data-provider="dp" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584 3989 2997 3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_type_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:44Z" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.card_type_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3c8a7e38]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="card_type_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="card_type_test" duration-ms="17" started-at="2017-03-11T21:11:44Z" data-provider="dp" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4532-5471-0699-6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- card_type_test -->
+        <test-method status="PASS" signature="luhn_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="luhn_test" duration-ms="1" started-at="2017-03-11T21:11:44Z" data-provider="dp" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4532-5471-0699-4816]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:44Z" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.luhn_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@138aa3cc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:44Z" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.luhn_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@10a98392]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="luhn_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="luhn_test" duration-ms="1" started-at="2017-03-11T21:11:44Z" data-provider="dp" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584398929973080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:44Z" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.luhn_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@30839e44]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="luhn_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="luhn_test" duration-ms="1" started-at="2017-03-11T21:11:44Z" data-provider="dp" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6011 9333 0267 9614 1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[02/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:44Z" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.luhn_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5f174dd2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="FAIL" signature="luhn_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="luhn_test" duration-ms="10" started-at="2017-03-11T21:11:44Z" data-provider="dp" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[37783 6551 9422 60]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[04/17]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.luhn_test(CreditCardValidationTest.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="4" started-at="2017-03-11T21:11:44Z" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.luhn_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1945113f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="FAIL" signature="luhn_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="luhn_test" duration-ms="1" started-at="2017-03-11T21:11:44Z" data-provider="dp" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BLAH]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4532-5471-0699-4816-1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[06/16]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.luhn_test(CreditCardValidationTest.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:44Z" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.luhn_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@45aca496]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="luhn_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="luhn_test" duration-ms="1" started-at="2017-03-11T21:11:44Z" data-provider="dp" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6011 9333 0267 9614]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[02/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:44Z" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.luhn_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@697173d9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="FAIL" signature="luhn_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="luhn_test" duration-ms="1" started-at="2017-03-11T21:11:44Z" data-provider="dp" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3778 3655 1942 239]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[04/17]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.luhn_test(CreditCardValidationTest.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn_test -->
+        <test-method status="PASS" signature="luhn_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="luhn_test" duration-ms="1" started-at="2017-03-11T21:11:44Z" data-provider="dp" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584 3989 2997 3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn_test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="0" started-at="2017-03-11T21:11:44Z" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.luhn_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@ceddaf8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="bm" is-config="true" duration-ms="1" started-at="2017-03-11T21:11:44Z" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.CreditCardValidationTest.luhn_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3d90eeb3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="FAIL" signature="luhn_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@1b4ae4e0]" test-instance-name="4532-5471-0699-6" name="luhn_test" duration-ms="2" started-at="2017-03-11T21:11:44Z" data-provider="dp" finished-at="2017-03-11T21:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4532-5471-0699-6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03/18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.CreditCardValidationTest.luhn_test(CreditCardValidationTest.java:67)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
