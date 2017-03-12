@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="core.CreditCardValidationTest">
+        <methods>
+          <include name="card_cvv_test" invocation-numbers="4"/>
+          <include name="card_number_length_test" invocation-numbers="2 4"/>
+          <include name="luhn_test" invocation-numbers="3 4"/>
+          <include name="card_exp_test" invocation-numbers="4"/>
+          <include name="bm"/>
+          <include name="card_type_test" invocation-numbers="2 4"/>
+        </methods>
+      </class> <!-- core.CreditCardValidationTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

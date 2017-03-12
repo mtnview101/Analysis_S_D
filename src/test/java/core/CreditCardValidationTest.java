@@ -7,7 +7,6 @@ import java.util.*;
 import org.testng.ITest;
 import org.testng.annotations.*;
 
-import core.Override;
 
 public class CreditCardValidationTest implements ITest {
        String csvFile = "./src/resources/test_data/csv/cc.csv";
@@ -38,7 +37,7 @@ public class CreditCardValidationTest implements ITest {
 
        @Override(id = 1)
        @Test(dataProvider = "dp", enabled = true, groups = "card_type")
-public void card_type_test(String cc_type, String cc_number, String cc_exp, String cc_cvv) {
+       public void card_type_test(String cc_type, String cc_number, String cc_exp, String cc_cvv) {
               assertThat(CreditCardValidation.card_type(cc_type, cc_number), is(true));}
        
        @Override(id = 1)
