@@ -17,23 +17,22 @@ else if (cc_type.equals("American Express") && number.length() == 15) {return tr
 else {return false;}}
        
 
-       public static boolean card_type(String cc_type, String cc_number) {
-              String number = new String(cc_number.replaceAll("\\s", "").replaceAll("-", ""));
+public static boolean card_type(String cc_type, String cc_number) {
+String number = new String(cc_number.replaceAll("\\s", "").replaceAll("-", ""));
 
-     if (number.startsWith("4") && (number.length() == 13 || number.length() == 16) && 
+if (number.startsWith("4") && (number.length() == 13 || number.length() == 16) && 
 cc_type.equals("VISA")) {return true;} 
 else if ((number.startsWith("51") || number.startsWith("52") ||
-number.startsWith("53") || number.startsWith("54") || number.startsWith("55")) &&
-number.length() == 16 && cc_type.equals("MasterCard")) {return true;}
+number.startsWith("53") || number.startsWith("54") || number.startsWith("55")) && number.length() == 16 && 
+cc_type.equals("MasterCard")) {return true;}
 else if ((number.startsWith("6011") || number.startsWith("62") ||
 number.startsWith("64") || number.startsWith("65")) && number.length() == 16 &&
 cc_type.equals("Discover")){return true;}
-else if ((number.startsWith("34") || number.startsWith("37")) &&
-number.length() == 15 && cc_type.equals("American Express")) {return true;} 
+else if ((number.startsWith("34") || number.startsWith("37")) && number.length() == 15 && 
+cc_type.equals("American Express")) {return true;} 
 else {return false;}}
-       // 02/18  
-       
-       
+
+// 02/18  
 public static boolean card_exp_format(String cc_exp)  {
               return (cc_exp.matches("^(\\d{2}/\\d{2})$"));}
 
@@ -74,7 +73,7 @@ public static void main(String[] args) throws IOException  {
 System.out.println(
 "CC Type: "+ card_type(csv[0], csv[1]) + ", "+ 
 "CC Length - "+ (card_number_length(csv[0],csv[1]) ? "valid" : "Invalid length")+"; "+
-"Exp Format - "+ (card_exp_format(csv[2]) ? "valid" : "invalid") + "; "+
+//"Exp Format - "+ (card_exp_format(csv[2]) ? "valid" : "invalid") + "; "+
 "Expiration - "+ (card_exp(csv[2]) ? "not expired" : "expired") + "; "+
 "CVV Length - "+ (card_cvv(csv[0], csv[3]) ? "valid" : "Invalid length") + "; "+
 "Luhn Test: "+ ((luhn(csv[1])) ? "valid" : "invalid"));}
