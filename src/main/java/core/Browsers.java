@@ -19,15 +19,15 @@ import org.openqa.selenium.safari.SafariOptions;
 
 public class Browsers {
 	static WebDriver driver;
-	private static final String mac="MAC"; // mac
-	static final String win="WINDOWS"; // windows
-	static final String os="os.name"; // OS name
-	static final String fireFox="Firefox"; // browser name
-	static final String chrome="Chrome"; // browser name
-	static final String safari="Safari"; // browser name
-	static final String iExplorer="IE"; // browser name
-	static final String edge="Edge"; // browser name
-	static final String htmlUnit="HtmlUnit"; // browser name
+	private static final String mac="MAC"; 	// mac
+	static final String win="WINDOWS"; 		// windows
+	static final String os="os.name"; 		// OS name
+	static final String fireFox="Firefox"; 	// browser name Firefox
+	static final String chrome="Chrome"; 	// browser name Chrome
+	static final String safari="Safari"; 	// browser name Safari
+	static final String iExplorer="IE"; 	// browser name IE
+	static final String edge="Edge"; 		// browser name Edge
+	static final String htmlUnit="HtmlUnit"; // browser name HtmlUnit
 	
 	static final String driverPathEdge = "./src/main/resources/webdrivers/pc/MicrosoftWebDriver.exe";
 	static final String driverPathChromeMAC = "./src/main/resources/webdrivers/mac/chromedriver";
