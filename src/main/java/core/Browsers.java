@@ -27,7 +27,7 @@ public class Browsers {
 	static final String safari="Safari"; 	// browser name Safari
 	static final String iExplorer="IE"; 	// browser name IE
 	static final String edge="Edge"; 		// browser name Edge
-	static final String htmlUnit="HtmlUnit"; // browser name HtmlUnit
+	static final String htmlUnit="HtmlUnit";// browser name HtmlUnit
 	
 	static final String driverPathEdge = "./src/main/resources/webdrivers/pc/MicrosoftWebDriver.exe";
 	static final String driverPathChromeMAC = "./src/main/resources/webdrivers/mac/chromedriver";
@@ -102,9 +102,9 @@ case "Safari":
        break;
 
 case "IE":
-      DesiredCapabilities IEDesiredCapabilities = DesiredCapabilities.internetExplorer();
-		  IEDesiredCapabilities.setCapability (InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
-		  IEDesiredCapabilities.setCapability (InternetExplorerDriver.INITIAL_BROWSER_URL, "");
+       DesiredCapabilities IEDesiredCapabilities = DesiredCapabilities.internetExplorer();
+	   IEDesiredCapabilities.setCapability (InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
+	   IEDesiredCapabilities.setCapability (InternetExplorerDriver.INITIAL_BROWSER_URL, "");
        IEDesiredCapabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
        IEDesiredCapabilities.setJavascriptEnabled(true);
        IEDesiredCapabilities.setCapability("enablePersistentHover", false);
@@ -130,6 +130,5 @@ case "HtmlUnit":
 default:
        throw new IllegalArgumentException("Unknown Browser");
         }
- }
-	
+}
 }
